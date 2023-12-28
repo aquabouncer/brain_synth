@@ -4,10 +4,8 @@
 name: built, test and lint Brain_Synth
 
 on:
-  push:
-    branches: ["master"]
   pull_request:
-    branches: ["master"]
+    branches: ["master", "main"]
 
 permissions:
   contents: read
