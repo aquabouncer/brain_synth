@@ -7,10 +7,11 @@ Now let’s say you have some sort of anomaly in the sine wave—say it goes fro
 I have no idea if this is a satisfying answer, but if you clarify your level of knowledge on the topic, I can maybe try to clarify my explanation.
 
 """
-#this is explains note popping very well.
+# this is explains note popping very well.
 
-from synth import Note
 from songs import *
+from synth import Note
+
 
 def main():
     """
@@ -20,13 +21,14 @@ def main():
 
     # Choose between note.create_and_play or note.create_song_wave.
     # To change the instrument, modify the synth_wave parameter in the play() method.
-    song_waveform = note.create_and_play(jingle_bells) # Play the 'jingle_bells' song
+    song_waveform = note.create_and_play(jingle_bells)  # Play the 'jingle_bells' song
     note.save_wave(f"jingle_bells.wav")  # Save the waveform as a WAV file
+
 
 if __name__ == "__main__":
     main()
 
-#TODO set up instrument slot
+# TODO set up instrument slot
 # add other waves
 # add envelopes
 # filters for low pass, hihg pass, band pass, notch filters
