@@ -1,17 +1,15 @@
-Largly I have no clue what I am doing like everyone else. But this project I have learned alot about music and the math behind it.
-How all the notes are based on 440 hertz and every other note comes from that starting frequency.
-Basic math that I had forgotten from not using it in forever.
-I have tried my best to comment and label everything in a way that you can just read and go. 
-This might be something that someone could inprove.
-My hope is to give a cool sounding project for people to get experience Contributing to Github and help build up their work experience.
-Do not be afraid to play and break the project you can always grab a new fork.
-Experiment and have fun!
+**UNDER DEVELOPMENT**
 
 # Brain_Synth README
 
 ## Overview
 
 Welcome to Brain_Synth, a beginner friendly synthesizer for creating a standard range of electronic sounds.
+
+I have tried my best to comment and label everything in a way that you can just read and go. 
+My hope is to give a cool sounding project for people to get experience Contributing to Github and help build up their work experience.
+Do not be afraid to play and break the project you can always grab a new fork.
+Experiment and have fun!
 
 ## Features
 

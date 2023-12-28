@@ -1,8 +1,12 @@
 import unittest
 import os
+import sys
+sys.path.append(".")
 from tempfile import NamedTemporaryFile
-from notes import treble_clef  # Make sure to import your treble_clef dictionary
+from notes import treble_clef
 from synth import Note
+
+
 
 class TestNoteClass(unittest.TestCase):
 
