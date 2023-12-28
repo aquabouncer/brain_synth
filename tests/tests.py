@@ -1,15 +1,14 @@
 import unittest
 import os
 import sys
+
 sys.path.append(".")
 from tempfile import NamedTemporaryFile
 from notes import treble_clef
 from synth import Note
 
 
-
 class TestNoteClass(unittest.TestCase):
-
     def setUp(self):
         self.note = Note()
 
@@ -57,7 +56,7 @@ class TestNoteClass(unittest.TestCase):
     def test_save_wave(self):
         song_sequence = [("C4", "sine", 1.0, 0.8), ("E4", "sine", 1.0, 0.8)]
         self.note.create_song_wave(song_sequence)
-        
+
         with NamedTemporaryFile(suffix=".wav", delete=False) as temp_file:
             temp_file_path = temp_file.name
             self.note.save_wave(temp_file_path)
@@ -66,5 +65,6 @@ class TestNoteClass(unittest.TestCase):
     def tearDown(self):
         pass  # Clean up if needed
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     unittest.main()
